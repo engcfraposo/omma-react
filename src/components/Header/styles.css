@@ -1,0 +1,68 @@
+header{
+   position:fixed;
+   width: 100%;
+   top: 0;
+   left: 0; 
+   display: flex;
+   flex-direction: column;
+   z-index: 999;
+}
+
+header div.logo-area{
+    width: auto;
+    height: 117px;
+    background-color: #FFC107;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header div.logo-area img{
+    width:325px;
+    height: 85px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+header nav.menu{
+    background-color: #FFA000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+header nav.menu ul{
+    list-style-type: none;
+    list-style: none;
+    height: 45px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav.menu ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+header nav.menu ul li a{
+    display: block;
+    padding: 0 55px;
+    text-decoration: none;
+    color: white;
+    font-family: Montserrat;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 700;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+}
+
+header nav.menu ul li a:hover{
+    color: #FFC107;
+    
+}
