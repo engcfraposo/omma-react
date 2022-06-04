@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from "../../assets/logo.png";
+import { Link } from 'react-router-dom';
 import "./styles.css";
 
 const Header: React.FC = () => {
@@ -11,13 +12,13 @@ const Header: React.FC = () => {
           <nav className="menu">
               <ul>
                   <li>
-                      <a href="#">Inicio</a>
+                      <Link to="/">Inicio</Link>
                   </li>
                   <li>
-                      <a href="#">Receitas</a>
+                      <Link to="/receitas">Receitas</Link>
                   </li>
                   <li>
-                      <a href="#">Contato</a>
+                      <Link to="/contato">Contato</Link>
                   </li>
               </ul>
           </nav>
